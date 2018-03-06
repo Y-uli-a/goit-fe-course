@@ -1,0 +1,11 @@
+p{
+  font-family: Julee;
+  font-size: 25px;
+color: rgb(99, 20, 173);
+line-height: 20px;
+}
+.box{
+  height: 300px;
+  width: 300px;
+  background-image: linear-gradient(yellow, darkgreen)
+}

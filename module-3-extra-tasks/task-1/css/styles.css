@@ -1,0 +1,9 @@
+.list-item {
+  display: inline-block;
+}
+.item {
+  text-align: center
+}
+.list-link:hover {
+  color: rgb(197, 125, 16);
+}
