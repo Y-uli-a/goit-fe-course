@@ -31,13 +31,14 @@ img {
   width: 901px;
   margin: 0 auto;
   vertical-align: top;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 /* nav-menu */
 
 .nav {
   margin-bottom: 98px;
-  margin-top: 72px;
 }
 
 .nav-menu {
@@ -51,16 +52,8 @@ img {
   display: inline-block
 }
 
-.nav-item-lifestyle {
-  margin-right: 122px;
-}
-
-.nav-item-photodiary {
-  margin-right: 103px;
-}
-
-.nav-item-music {
-  margin-right: 95px;
+.nav-item:not(:last-child) {
+  margin-right: 105px;
 }
 
 .nav-menu a {
@@ -88,6 +81,7 @@ img {
   display: inline-block;
   font-size: 14px;
   margin-bottom: 135px;
+  vertical-align: top;
 }
 
 .list-item:not(:nth-child(2n)) {
@@ -123,7 +117,6 @@ img {
   font-family: "PlayFair Display", "Arial", sans-serif;
   color: rgb(98, 98, 98);
   margin-top: 53px;
-  margin-bottom: 70px;
 }
 
 div button {
