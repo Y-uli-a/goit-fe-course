@@ -1,0 +1,21 @@
+.main-list-link {
+  text-decoration: none;
+  color: rgb(236, 162, 65);
+  padding: 10px;
+}
+
+.main-list {
+  list-style: none;
+  font-family: Georgia, Times, serif;
+  font-size: 20px;
+}
+
+.main-list-item::before {
+  content: "\2192";
+  color: hsl(271, 47%, 48%);
+}
+
+.main-list-link:hover,
+.main-list-link:focus {
+  color: hsl(271, 47%, 48%);
+}
