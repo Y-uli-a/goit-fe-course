@@ -24,7 +24,6 @@
 .nav-item:hover,
 .nav-item:focus {
   color: rgb(121, 36, 36);
-  font-weight: 700;
   background: radial-gradient(#ffa07a, #778899);
 }
 
