@@ -55,24 +55,24 @@ html {
 
 .section-nav {
   list-style: none;
+  float: right;
 }
 
 .section-nav-item {
-  float: right;
+  float: left;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 10px;
 }
 
 .nav-link {
   text-decoration: none;
   font-size: 14pt;
-  line-height: 11pt;
+  line-height: 24pt;
   color: #0f0101;
 }
 
-.section-nav-item:not(:first-child) {
+.section-nav-item:not(:last-child) {
   margin-right: 34px;
 }
 
@@ -118,35 +118,27 @@ html {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 
-.item-price,
-.item-name {
+.goods-details-link {
   font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 32px;
   color: #ffffff;
-}
-
-.item-price {
-  float: right;
-  background: #8c8c8c;
-  padding-top,
-  padding-bottom: 10px;
-  width: 55px;
-  text-align: center;
-}
-
-.item-name {
   float: left;
   background: #323232;
-  width: 200px;
+  width: 255px;
   padding-left: 12px;
-  padding-top,
-  padding-bottom: 10px;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.goods-details-link span {
+  float: right;
+  background: #8c8c8c;
+  width: 55px;
+  text-align: center;
 }
 
 .goods-items {
@@ -162,11 +154,11 @@ img {
   margin-bottom: 0;
 }
 
-.goods-items:hover .item-name {
+.goods-items:hover .goods-details-link {
   background-color: #1abc9c;
 }
 
-.goods-items:hover .item-price {
+.goods-items:hover .goods-details-link span {
   background-color: #7fd9c7;
 }
 
@@ -185,26 +177,6 @@ img {
   color: #555252;
   margin-top: 12px;
   margin-bottom: 10px;
-}
-
-.article-header::before {
-  display: block;
-  width: 350px;
-  height: 264px;
-  content: "";
-  background-size: cover;
-}
-
-.one::before {
-  background-image: url('../img/ipad-632394_960_720.jpg')
-}
-
-.two::before {
-  background-image: url('../img/girls2.jpg')
-}
-
-.three::before {
-  background-image: url('../img/bus.jpg')
 }
 
 .article-header::after {
