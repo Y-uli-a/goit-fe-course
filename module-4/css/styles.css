@@ -154,11 +154,13 @@ img {
   margin-bottom: 0;
 }
 
-.goods-items:hover .goods-details-link {
+.goods-items:hover .goods-details-link,
+.goods-items:focus .goods-details-link{
   background-color: #1abc9c;
 }
 
-.goods-items:hover .goods-details-link span {
+.goods-items:hover .goods-details-link span
+.goods-items:focus .goods-details-link span {
   background-color: #7fd9c7;
 }
 
