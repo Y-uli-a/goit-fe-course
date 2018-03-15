@@ -1,0 +1,266 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+  padding-top: 38px;
+  padding-bottom: 82px;
+}
+
+/*HEADER*/
+
+.blog-header {
+  margin-bottom: 100px;
+}
+
+.blog-logo {
+  display: block;
+  float: left;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.blog-logo-link {
+  text-decoration: none;
+  color: #555252;
+}
+
+.blog-logo::first-letter {
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.section-nav {
+  list-style: none;
+}
+
+.section-nav-item {
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 14pt;
+  line-height: 11pt;
+  color: #0f0101;
+}
+
+.section-nav-item:not(:first-child) {
+  margin-right: 34px;
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+  color: #1abc9c;
+}
+
+/*MAIN SECTION 1*/
+
+.gallery-showroom,
+.blog-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 32px;
+  color: #515151;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gallery-showroom::after,
+.blog-title::after {
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  content: "";
+  margin: auto;
+  margin-top: 40px;
+}
+
+.gallery-goods {
+  list-style: none;
+  margin-top: 92px;
+  margin-bottom: 112px;
+}
+
+.goods-images {
+  background: #e7eefb;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.item-price,
+.item-name {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.item-price {
+  float: right;
+  background: #8c8c8c;
+  padding-top,
+  padding-bottom: 10px;
+  width: 55px;
+  text-align: center;
+}
+
+.item-name {
+  float: left;
+  background: #323232;
+  width: 200px;
+  padding-left: 12px;
+  padding-top,
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.goods-items {
+  float: left;
+  margin-bottom: 30px;
+}
+
+.goods-items:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
+.goods-items:not(:nth-child(-n+4)) {
+  margin-bottom: 0;
+}
+
+.goods-items:hover .item-name {
+  background-color: #1abc9c;
+}
+
+.goods-items:hover .item-price {
+  background-color: #7fd9c7;
+}
+
+/*SECTION 2*/
+
+.news-list {
+  list-style: none;
+  margin-top: 80px;
+}
+
+.article-header {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 14pt;
+  line-height: 26pt;
+  color: #555252;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.article-header::before {
+  display: block;
+  width: 350px;
+  height: 264px;
+  content: "";
+  background-size: cover;
+}
+
+.one::before {
+  background-image: url('../img/ipad-632394_960_720.jpg')
+}
+
+.two::before {
+  background-image: url('../img/girls.jpg')
+}
+
+.three::before {
+  background-image: url('../img/bus.jpg')
+}
+
+.article-header::after {
+  display: block;
+  width: 136px;
+  height: 3px;
+  content: "";
+  background-color: #4ec6ab;
+}
+
+.article-content {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #828080;
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+
+.news-article {
+  float: left;
+  width: 350px;
+}
+
+.news-article:not(:last-child) {
+  margin-right: 30px;
+}
+
+.unfold-link {
+  display: table-cell;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #f3fbf9;
+  text-decoration: none;
+  width: 160px;
+  height: 50px;
+  background-color: #4ec6ab;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
