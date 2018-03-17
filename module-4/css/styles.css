@@ -108,7 +108,7 @@ html {
 .gallery-goods {
   list-style: none;
   margin-top: 92px;
-  margin-bottom: 112px;
+  /* margin-bottom: 112px; */
 }
 
 .goods-images {
@@ -151,7 +151,7 @@ img {
 }
 
 .goods-items:not(:nth-child(-n+4)) {
-  margin-bottom: 0;
+  margin-bottom: 112px;
 }
 
 .goods-items:hover .goods-details-link,
@@ -159,7 +159,7 @@ img {
   background-color: #1abc9c;
 }
 
-.goods-items:hover .goods-details-link span
+.goods-items:hover .goods-details-link span,
 .goods-items:focus .goods-details-link span {
   background-color: #7fd9c7;
 }
