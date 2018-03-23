@@ -83,6 +83,10 @@ html {
 
 /*MAIN SECTION 1*/
 
+.gallery {
+  margin-bottom: 112px;
+}
+
 .gallery-showroom,
 .blog-title {
   font-family: Roboto, sans-serif;
@@ -108,7 +112,6 @@ html {
 .gallery-goods {
   list-style: none;
   margin-top: 92px;
-  /* margin-bottom: 112px; */
 }
 
 .goods-images {
@@ -148,10 +151,6 @@ img {
 
 .goods-items:not(:nth-child(4n)) {
   margin-right: 30px;
-}
-
-.goods-items:not(:nth-child(-n+4)) {
-  margin-bottom: 112px;
 }
 
 .goods-items:hover .goods-details-link,
