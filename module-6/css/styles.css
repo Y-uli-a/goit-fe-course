@@ -291,7 +291,7 @@ header a {
   background-image: linear-gradient( 90deg, rgba(252,227,138, 0.87) 0%, rgba(243,129,129, 0.87) 100%);
   opacity: 0;
   z-index: 3;
-  transition: opacity, transform 200ms linear;
+  transition: opacity 200ms linear, transform 200ms linear;
 }
 
 .socials {
@@ -318,7 +318,7 @@ header a {
   background-repeat: no-repeat;
   background-position: center;
   z-index: 5;
-  transition: color 200ms linear;
+  transition: background-color 200ms linear;
 }
 
 .social-icon a:hover {
