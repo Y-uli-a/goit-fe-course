@@ -71,7 +71,7 @@ header a {
   transition: opacity 200ms linear;
 }
 
-.menu-item-link:hover {
+.site-menu-items:hover .menu-item-link {
   color: #f38181;
 }
 
@@ -92,6 +92,7 @@ header a {
 .services-header {
   color: #333333;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .services-header::after {
@@ -102,7 +103,6 @@ header a {
   content:"";
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 60px;
 }
 
 .services-title {
@@ -140,6 +140,7 @@ header a {
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
+  margin-bottom: 60px;
 }
 .service-name {
   font-family: "Montserrat",Arial, Helvetica, sans-serif;
@@ -386,6 +387,7 @@ footer {
   font-style: italic;
   color: #dddddd;
   padding-left: 12px;
+
 }
 
 button {
