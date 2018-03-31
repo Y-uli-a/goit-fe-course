@@ -207,6 +207,7 @@ header a {
 .team-header {
   color: #333333;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .team-header::after {
@@ -217,7 +218,6 @@ header a {
   content:"";
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 60px;
 }
 
 .team-title {
