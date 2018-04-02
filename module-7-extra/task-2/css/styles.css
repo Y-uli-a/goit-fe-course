@@ -1,0 +1,11 @@
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 70px;
+  text-align: center;
+}
+
+iframe {
+  border: 10px solid rgb(244, 239, 239);
+  box-shadow: 5px 5px 7px rgb(216, 209, 195);
+}
