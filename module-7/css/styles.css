@@ -4,7 +4,6 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/montserrat-v12-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Montserrat Regular'), local('Montserrat-Regular'),
        url('../fonts/montserrat-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
@@ -79,13 +78,6 @@ html {
   margin: 0 auto;
 }
 
-/*HEADER*/
-
-/* .site-header {
-  min-height: 125px;
-  align-items: center;
-}
- */
 .site-nav {
   display: flex;
   justify-content: space-between;
@@ -108,7 +100,7 @@ html {
 }
 
 .site-logo-link {
-  font-family: "WisdomScript";
+  font-family: "WisdomScript", Arial, Helvetica, sans-serif;
   font-size: 26px;
   line-height: 41px;
   color: #fed136;
@@ -116,9 +108,9 @@ html {
 
 
 .page-nav-link {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   color: #222222;
   text-transform: uppercase;
   transition: color 200ms linear;
@@ -269,6 +261,16 @@ form input, textarea {
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
+}
+
+input:required:valid,
+textarea:required:valid {
+  outline: 2px solid #008000;
+}
+
+input:required:invalid,
+textarea:required:invalid {
+  outline: 2px solid #ff0000;
 }
 
 button {
