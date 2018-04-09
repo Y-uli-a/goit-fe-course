@@ -263,13 +263,13 @@ form input, textarea {
   padding-bottom: 30px;
 }
 
-input:required:valid,
-textarea:required:valid {
+input:required:valid:focus,
+textarea:required:valid:focus {
   outline: 2px solid #008000;
 }
 
-input:required:invalid,
-textarea:required:invalid {
+input:required:invalid:focus,
+textarea:required:invalid:focus {
   outline: 2px solid #ff0000;
 }
 
