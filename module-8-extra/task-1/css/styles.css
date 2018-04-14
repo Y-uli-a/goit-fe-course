@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.yellow, .content div, .green {
+  border: 1px solid black;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 50px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  padding: 10px 0;
+}
+.content div {
+  height: 400px;
+}
+.blue {
+  background-color: blue;
+  margin-right: 20px;
+  width: 56%;
+}
+
+.grey {
+  background-color: grey;
+  margin-right: 20px;
+  width: 22%;
+}
+
+.red {
+  background-color: firebrick;
+  width: 22%;
+}
+
+.green {
+  background-color: forestgreen;
+  height: 50px;
+  width: 100%;
+}
