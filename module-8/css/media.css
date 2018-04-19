@@ -1,0 +1,177 @@
+@media (max-width: 659px) {
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .promo {
+    width: 320px;
+    min-height: 540px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('../img/mobile.png')
+  }
+  .site-header {
+    padding: 20px 0 32px 0;
+   }
+   .site-logo {
+     padding-top: 120px;
+   }
+   .head {
+    font-size: 30px;
+    line-height: 34px;
+    padding-bottom: 12px;
+   }
+   .subhead {
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 15px;
+    max-width: 220px;
+    margin: 0 auto;
+   }
+   .find {
+     width: 280px;
+     height: 40px;
+   }
+   .partners {
+     text-align: center;
+     padding: 68px 0 58px 0;
+   }
+   .partners-variants {
+    margin: 0 auto;
+    width: 220px;
+   }
+
+   .partners-variants:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .partners-list {
+    padding-bottom: 30px;
+  }
+   .name {
+     padding: 24px 0;
+   }
+   .other {
+     width: 280px;
+     height: 40px;
+   }
+   .section-title {
+     padding-bottom: 14px;
+   }
+}
+
+
+
+@media (min-width: 660px) {
+  .container {
+    width: 660px;
+    margin: 0 auto;
+  }
+
+  .promo {
+    min-height: 700px;
+    background-image: url('../img/tablet.png');
+  }
+
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 110px;
+    align-items: center;
+  }
+
+  .site-logo {
+    order: -1;
+  }
+
+  .head {
+    font-size: 52px;
+    line-height: 76px;
+    max-width: 512px;
+    margin: 0 auto;
+    padding-bottom: 28px;
+  }
+
+  .subhead {
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 22px;
+  }
+  .top {
+    padding-top: 104px;
+    text-align: center;
+  }
+  .find {
+    width: 226px;
+    height: 40px;
+  }
+  .section-title {
+    padding: 70px 0 30px 0;
+  }
+
+  .name {
+    padding: 20px 0;
+  }
+
+  .partners {
+    width: 492px;
+    padding-bottom: 40px;
+  }
+  .partners-variants {
+    width: 234px;
+    text-align: center;
+  }
+  .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 36px;
+  }
+
+  .walk {
+    order: 0;
+  }
+
+  .mars {
+    order: 1;
+  }
+  .brad {
+    order: 2;
+  }
+  .other {
+    display: block;
+    width: 192px;
+    height: 40px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 660px) and (max-width: 939px) {
+  .partners-variants:nth-child(odd) {
+  margin-bottom: 56px;
+  }
+}
+
+
+@media (min-width: 940px) {
+  .container {
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  .partners {
+    padding-bottom: 70px;
+  }
+
+  .promo {
+    background-size: cover;
+  }
+
+  .name {
+    padding: 16px 0;
+  }
+  .partners-variants {
+    margin: 0;
+  }
+}
+
+
