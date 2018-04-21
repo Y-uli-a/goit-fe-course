@@ -4,7 +4,6 @@
     margin: 0 auto;
   }
   .promo {
-    width: 320px;
     min-height: 540px;
     margin: 0 auto;
     text-align: center;
@@ -160,10 +159,6 @@
 
   .partners {
     padding-bottom: 70px;
-  }
-
-  .promo {
-    background-size: cover;
   }
 
   .name {
