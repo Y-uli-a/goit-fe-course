@@ -1,0 +1,13 @@
+.row [class*='col-'] {
+  text-align: center;
+  height: 70px;
+}
+
+.row [class*='col-']:nth-child(odd) {
+  background-color: rgb(238, 200, 129);
+
+}
+
+.row [class*='col-']:nth-child(even) {
+  background-color: rgb(221, 138, 166);
+}

@@ -9,33 +9,4 @@ html {
   -webkit-margin-after: 0;
 }
 picture img { width: 100%; height: auto;}
-/*
-@media (min-width: 480px) {
-  picture {
-  width: 480px;
-  height:480px;
-  <img src="./img/попугай.jpg">
-  background-size: contain;
-  margin: 0 auto;
-  }
-}
 
-@media (min-width:768px) {
-  .picture {
-    width: 768px;
-    height: 768o;
-    background-image: url("../img/palm.png");
-    background-size: contain;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width:1200px) {
-  .picture {
-    width: 1200px;
-    height: 1200px;
-    background-image: url("../img/y.jpg");
-    background-size: contain;
-    margin: 0 auto;
-  }
-} */
