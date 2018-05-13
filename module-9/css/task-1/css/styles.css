@@ -1,0 +1,15 @@
+@media {
+  .row [class*='col-'] {
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .row [class*='col-']:first-child {
+    background-color: yellow;
+  }
+  .row [class*='col-']:last-child {
+    background-color: greenyellow;
+
+  }
+}
